@@ -1,54 +1,51 @@
-#Create addition function
-def addition(first, second):
-    return first + second
+def addition ():
+    first = int(input("Enter the first number to be added to: "))
+    second = int(input("Enter the second number: "))
+    result = print(first + second)
 
-# def addition():
-#     first = int(input("Enter first: "))
-#     second = int(input("Enter Second: "))
-#     result = (first + second)
-#     print(result)
+def substraction():
+    first = int(input("Enter the first number to be subtracted from: "))
+    second = int(input("Enter the second number: "))
+    result = print(first - second)
+    return result
+
+def multiplication():
+    first = int(input("Enter the first number to be multiplied with: "))
+    second = int(input("Enter the second number: "))
+    result = print(first * second)
+    return result
 
 
-# def substraction():
-#     first = int(input("Enter first: "))
-#     second = int(input("Enter Second: "))
-#     return second - first
+def division():
+    first = int(input("Enter the first number to be divided with: "))
+    second = int(input("Enter the second number: "))
+    result = print(first / second)
+    return result
 
+def exponential(first, second):
+    first = int(input("Enter the first number: "))
+    second = int(input("Enter the second number: "))
+    result = print(first ** second)
+    return result
 
-# def multiplication(first, second):
-#     first = int(input("Enter first: "))
-#     second = int(input("Enter Second: "))
-#     return first * second
-
-# def division(first, second):
-#     first = int(input("Enter first: "))
-#     second = int(input("Enter Second: "))
-#     return first / second
-
-# def exponential(first, second):
-#     first = int(input("Enter first: "))
-#     second = int(input("Enter Second: "))
-#     return first ** second
-
-# def sqrt(number):
-#     number = int(input("Enter a number: "))
-#     return number ** 1/2
+def sqrt():
+    number = int(input("Enter a number: "))
+    result = print(number ** 1/2)
+    return result
     
-# def tangent():
-#     height = int(input("Enter the height: "))
-#     base = int(input("Enter the base: "))
-#     return height / base
+def tangent():
+    height = int(input("Enter the height of the triangle: "))
+    base = int(input("Enter the base of the triangle: "))
+    result = print(height / base)
+    return result
 
-# def sin():
-#     hypotenus = int(input("Enter the hypotenus: "))
-#     base = int(input("Enter the base: "))
-#     return hypotenus / base
+def sin():
+    hypotenus = int(input("Enter the hypotenus of the triangle: "))
+    base = int(input("Enter the base of the triangle: "))
+    result = print(hypotenus / base)
+    return result
 
-# # def exchanges():
-# #     rate_1USD   = int(input("Enter day exchange rate: "))
-# #     amount   = int(input("Enter amount of local currecy to change: "))
-# #     currency = input("Enter the name of Currecy = ")
-# #     return currency, amount * rate_1USD
+
 
 
 
